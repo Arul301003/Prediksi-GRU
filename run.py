@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 
 # Load model
-model = load_model("model/final_model_gru (14).h5")
+model = load_model("final_model_gru (14).h5")
 st.set_page_config(page_title="Cryptocurrency Price Prediction", layout="wide", page_icon="📈")
 
 # Custom CSS & NAVBAR HTML
